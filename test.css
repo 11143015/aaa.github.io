@@ -43,7 +43,12 @@
   height: 500px;
 
 }
-
+#n01,#n03,#n04,#n05 {
+  scroll-margin-top: 11vh;
+}
+#n02{
+  scroll-margin-top: 20vh;
+}
 .block-1-img {
   width: 217vh;
   background-color: black;
@@ -79,7 +84,10 @@
 }
 
 .block-2 {
+  background-color: white;
   margin-top: 30vh;
+  height: 600px;
+  padding-top: 10vh;
 }
 
 .my-idt {
@@ -121,7 +129,9 @@
 .block-3 ul {
   margin-left: 3vh;
 }
-
+.block-3 li{
+  font-size: 20px;
+}
 .block-4 {
   display: flex;
   justify-content: space-evenly;
