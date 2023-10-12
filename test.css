@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  
+}
+
+.Menu {
+  width: 100%;
+  height: 12%;
+  background-color: blanchedalmond;
+  position: fixed;
+  /* margin-bottom: 10%; */
+  z-index: 9999;
+  display: flex;
+
+}
+
+.Menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 200%;
+  margin-right: 1vw;
+  font-weight: bold;
+
+}
+
+.Menu-nav {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+
+}
+
+.Menu-nav a:hover {
+  text-decoration: underline;
+}
+
+.Menu img {
+  width: 24%;
+  margin-left: 1%;
+
+}
+
+.block-1 {
+  height: 46.296%;
+
+}
+#n01,#n03,#n04,#n05 {
+  scroll-margin-top: 11vh;
+}
+#n02{
+  scroll-margin-top: 18vh;
+}
+.block-1-img {
+  width: 217vh;
+  background-color: black;
+  opacity: 0.4;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+
+.block-1-img img {
+  height: 100vh;
+  margin-bottom: 25vh;
+}
+
+.text-overlay {
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-overlay h1 {
+  position: absolute;
+  color: white;
+  font-size: 20vh;
+}
+
+.text-overlay hr {
+  border: 0;
+  width: auto;
+  height: 15px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.block-2 {
+  background-color: white;
+  margin-top: 30vh;
+  height: 600px;
+  padding-top: 10vh;
+}
+
+.my-idt {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+
+.my-idt img {
+  border-radius: 50%;
+  margin-left: 35vh;
+}
+
+.block-2t {
+  /* border: 2px solid red; */
+  margin-left: 23vh;
+  margin-right: 35vh;
+}
+
+.block-2t p {
+  font-size: 3vh;
+}
+
+.spr {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-3 {
+  display: flex;
+  width: 100%;
+  height: 28.5vh;
+  /* justify-content: space-evenly; */
+}
+.container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 43.45%;
+}
+
+.line {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 6px;
+  height: 200px;
+  background-color: black;
+}
+
+.circle {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: white;
+  border: 8px solid black;
+}
+.circle h1{
+  margin:10px 2px ;
+  font-size: 25px;
+}
+.hl {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height:6px;
+  background-color: black;
+}
+.qualificationleft{
+  width: 26.7%;
+  height: 100%;
+  margin-left: 16%;
+  background-color: antiquewhite;
+  border-radius: 5%;
+}
+.block-3 h1{
+  text-align: center;
+}
+.qualificationRIGHT{
+  width: 26.7%;
+  height: 100%;
+  margin-left: 58%;
+  background-color: antiquewhite;
+  border-radius: 5%;
+}
+.hR{
+  position: absolute;
+  top: 10%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height:6px;
+  background-color: black;
+}
+.block-3 ul {
+  margin-left: 20%;
+}
+.block-3 li{
+  font-size: 20px;
+}
+.block-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.cf1 h1 {
+  margin-left: 21vh;
+}
+
+.cf2 h1 {
+  margin-left: 17vh;
+}
+
+.cf-img {
+  border: 1px solid red;
+  width: 70vh;
+  height: 50vh;
+}
+
+.div-f {
+  background-color: black;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.div-f p {
+  color: white;
+  font-size: 20px;
+}
+
+.div-f1 {
+  border-right: 1px solid white;
+  width: 50vh;
+  height: 15vh;
+  margin-top: 2vw;
+  padding-top: 9vh;
+}
+
+.div-f2 {
+  width: 50vh;
+}
+
+.div-f2 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1vw;
+  margin: 0%;
+  padding: 0%;
+}
+
+.div-f2 p {
+  font-size: 20px;
+  margin-left: 3vw;
+}
+
+.div-f2 a:hover {
+  text-decoration: underline;
+}
+
+.by {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+
+.by p {
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 5vh;
+}
